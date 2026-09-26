@@ -1,0 +1,188 @@
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Toyota Yaris Cross、Corolla Cross 與 RAV4 台灣市場比較：售價、尺寸、動力定位、家庭空間與使用情境。">
+<title>Toyota SUV 三車比較｜Yaris Cross × Corolla Cross × RAV4</title>
+<style>
+:root{
+  --red:#e50019;--ink:#151515;--muted:#666;--line:#e5e5e5;--soft:#f6f6f6;--white:#fff;
+  --shadow:0 12px 34px rgba(0,0,0,.07);--radius:18px;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Noto Sans TC","PingFang TC","Microsoft JhengHei",Arial,sans-serif;color:var(--ink);background:#fff;font-size:15px;line-height:1.75}
+a{color:inherit}
+.wrap{width:min(1180px,calc(100% - 36px));margin:auto}
+.topbar{height:5px;background:var(--red)}
+header{position:sticky;top:0;z-index:10;background:rgba(255,255,255,.94);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
+.nav{min-height:64px;display:flex;align-items:center;justify-content:space-between;gap:20px}
+.brand{font-weight:800;letter-spacing:.04em;font-size:16px}.brand b{color:var(--red)}
+nav{display:flex;gap:22px;font-size:13px}nav a{text-decoration:none;color:#444}nav a:hover{color:var(--red)}
+.hero{padding:72px 0 48px;background:linear-gradient(180deg,#fff 0%,#f7f7f7 100%)}
+.eyebrow{font-size:12px;font-weight:800;letter-spacing:.18em;color:var(--red);text-transform:uppercase}
+h1{font-size:clamp(30px,5vw,58px);line-height:1.08;letter-spacing:-.04em;margin:12px 0 18px;max-width:900px}
+.lead{font-size:16px;color:#555;max-width:850px;margin:0}
+.hero-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:38px}
+.model-card{background:#fff;border:1px solid var(--line);border-radius:var(--radius);padding:24px;box-shadow:var(--shadow);position:relative;overflow:hidden}
+.model-card:before{content:"";position:absolute;left:0;top:0;width:100%;height:4px;background:var(--red)}
+.model-card small{color:#777}.model-card h2{font-size:22px;margin:4px 0}.price{font-size:27px;font-weight:850;letter-spacing:-.03em}.price span{font-size:13px;font-weight:500;color:#666}
+.tag{display:inline-block;margin-top:12px;padding:4px 10px;background:#f2f2f2;border-radius:999px;font-size:12px}
+section{padding:62px 0}
+.section-head{display:flex;align-items:end;justify-content:space-between;gap:20px;margin-bottom:26px}
+.section-head h2{font-size:28px;line-height:1.25;margin:5px 0}.section-head p{color:#666;max-width:620px;margin:0}
+.table-wrap{overflow:auto;border:1px solid var(--line);border-radius:16px}
+table{width:100%;border-collapse:collapse;min-width:760px;background:#fff}
+th,td{padding:15px 17px;border-bottom:1px solid var(--line);text-align:left;vertical-align:middle}
+th{background:#f7f7f7;font-size:13px}td:first-child{font-weight:700;width:22%}
+td strong{color:var(--red)}
+tr:last-child td{border-bottom:0}
+.price-ladder{display:grid;grid-template-columns:1fr auto 1fr auto 1fr;align-items:center;gap:15px;background:#111;color:#fff;border-radius:20px;padding:28px}
+.price-step{padding:12px}.price-step .n{font-size:31px;font-weight:850}.price-step .n b{color:#ff3347}.price-step small{color:#aaa}
+.arrow{font-size:25px;color:#777}
+.insight{margin-top:18px;padding:18px 20px;border-left:4px solid var(--red);background:#fafafa}
+.upgrade-grid{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-top:24px}
+.upgrade{border:1px solid var(--line);border-radius:16px;padding:24px}.upgrade h3{font-size:19px;margin:0 0 8px}.delta{font-size:24px;color:var(--red);font-weight:850}
+.models{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.detail{border-top:4px solid #222;background:var(--soft);border-radius:0 0 18px 18px;padding:26px}.detail h3{font-size:22px;margin:0 0 4px}.detail .key{font-size:18px;font-weight:800;margin:14px 0}.detail ul{padding-left:20px;margin-bottom:0}
+.detail:nth-child(2){border-color:var(--red)}
+.elder{display:grid;grid-template-columns:.9fr 1.1fr;gap:34px;align-items:center}
+.elder-panel{background:#111;color:#fff;border-radius:20px;padding:30px}.elder-panel h3{font-size:22px;margin-top:0}.elder-panel b{color:#ff4052}
+.choice td:nth-child(2){font-weight:700}
+.final{background:#111;color:#fff}.final .section-head p{color:#bbb}
+.final-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+.final-card{border:1px solid #333;border-radius:16px;padding:22px}.final-card h3{margin:0 0 5px}.final-card b{color:#ff4052}
+.source{font-size:12px;color:#777;margin-top:24px}
+.source a{color:#555}
+footer{padding:28px 0;border-top:1px solid var(--line);font-size:12px;color:#777}
+@media(max-width:820px){
+ nav{display:none}.hero{padding-top:48px}.hero-grid,.models,.final-grid,.upgrade-grid,.elder{grid-template-columns:1fr}
+ .price-ladder{grid-template-columns:1fr}.arrow{transform:rotate(90deg);justify-self:center}
+ .section-head{display:block}section{padding:45px 0}
+}
+</style>
+</head>
+<body>
+<div class="topbar"></div>
+<header>
+  <div class="wrap nav">
+    <div class="brand"><b>TOYOTA SUV</b> COMPARISON</div>
+    <nav>
+      <a href="#compare">三車比較</a><a href="#price">價格級距</a><a href="#drive">使用定位</a><a href="#family">家庭需求</a><a href="#choose">怎麼選</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+<section class="hero">
+ <div class="wrap">
+  <div class="eyebrow">Yaris Cross × Corolla Cross × RAV4</div>
+  <h1>3 種 SUV 尺度，<br>找到適合你的 Toyota</h1>
+  <p class="lead">從都會靈活、家庭全能，到更完整的中型 SUV 空間。真正需要比較的，不只是售價，而是多一級車格究竟換到多少空間、動力與長途舒適性。</p>
+  <div class="hero-grid">
+   <article class="model-card"><small>URBAN SUV</small><h2>Yaris Cross</h2><div class="price">69.5–79.5 <span>萬元</span></div><div class="tag">都會靈活・省成本</div></article>
+   <article class="model-card"><small>FAMILY CROSSOVER</small><h2>Corolla Cross</h2><div class="price">80.9–98.9 <span>萬元</span></div><div class="tag">家庭全能・汽油 / Hybrid</div></article>
+   <article class="model-card"><small>MIDSIZE SUV</small><h2>RAV4</h2><div class="price">104–149 <span>萬元</span></div><div class="tag">長途・空間・Hybrid / PHEV</div></article>
+  </div>
+ </div>
+</section>
+
+<section id="compare">
+ <div class="wrap">
+  <div class="section-head"><div><div class="eyebrow">At a glance</div><h2>三台先看最重要差異</h2></div><p>Yaris Cross 著重城市機動性；Corolla Cross 是家庭主力；RAV4 則把空間、滿載與長途需求再往上推一級。</p></div>
+  <div class="table-wrap"><table>
+   <thead><tr><th>比較項目</th><th>Yaris Cross</th><th>Corolla Cross</th><th>RAV4</th></tr></thead>
+   <tbody>
+    <tr><td>台灣售價</td><td><strong>69.5–79.5萬</strong></td><td><strong>80.9–98.9萬</strong></td><td><strong>104–149萬</strong></td></tr>
+    <tr><td>定位</td><td>小型都會 SUV</td><td>家庭跨界 SUV</td><td>中型 SUV</td></tr>
+    <tr><td>動力主力</td><td>1.5L 汽油</td><td>1.8L 汽油 / Hybrid</td><td>Hybrid / PHEV</td></tr>
+    <tr><td>車長</td><td>約 4,310 mm</td><td>約 4,460 mm</td><td>約 4,600 mm 級</td></tr>
+    <tr><td>車寬</td><td><strong>1,770 mm</strong></td><td>1,825 mm</td><td>約 1,855 mm 級</td></tr>
+    <tr><td>市區停車</td><td><strong>最靈活</strong></td><td>兼顧尺寸與空間</td><td>需較留意車位寬度</td></tr>
+    <tr><td>後座 / 長途</td><td>日常夠用</td><td>家庭使用充裕</td><td><strong>空間餘裕最大</strong></td></tr>
+    <tr><td>適合人數</td><td>1–4 人</td><td>2–5 人</td><td>4–5 人＋行李</td></tr>
+    <tr><td>使用重點</td><td>通勤、省成本</td><td><strong>家庭全能</strong></td><td>長途、空間、質感</td></tr>
+   </tbody>
+  </table></div>
+  <p class="source">註：價格與產品線依 2026 年 9 月整理資料；實際車型、配備與售價請以 Toyota Taiwan 最新公告為準。</p>
+ </div>
+</section>
+
+<section id="price" style="background:#f6f6f6">
+ <div class="wrap">
+  <div class="section-head"><div><div class="eyebrow">Price ladder</div><h2>價格不是終點，而是車格的階梯</h2></div><p>從 69.5 萬到 104 萬，Toyota 三款 SUV 形成清楚的級距。關鍵問題是：多花的預算，換到了什麼？</p></div>
+  <div class="price-ladder">
+   <div class="price-step"><small>Yaris Cross 入門</small><div class="n"><b>69.5</b> 萬</div></div><div class="arrow">→</div>
+   <div class="price-step"><small>Corolla Cross 入門</small><div class="n"><b>80.9</b> 萬</div></div><div class="arrow">→</div>
+   <div class="price-step"><small>RAV4 入門</small><div class="n"><b>104</b> 萬</div></div>
+  </div>
+  <div class="upgrade-grid">
+   <div class="upgrade"><div class="delta">+11.4 萬起</div><h3>Yaris Cross → Corolla Cross</h3><p>主要換到更大的車寬與後座空間、更完整的家庭車格，以及 Hybrid 選擇。若 Yaris Cross 已看到 79.5 萬頂規，與 Corolla Cross 80.9 萬入門僅差約 <b>1.4 萬</b>。</p></div>
+   <div class="upgrade"><div class="delta">+5.1 萬</div><h3>Corolla Cross 高階 → RAV4 入門</h3><p>Corolla Cross 頂規 98.9 萬與 RAV4 入門 104 萬相差約 <b>5.1 萬</b>。這時比較的已不只是配備，而是是否直接升級到更大的 SUV 車格。</p></div>
+  </div>
+ </div>
+</section>
+
+<section id="drive">
+ <div class="wrap">
+  <div class="section-head"><div><div class="eyebrow">Character</div><h2>三台開起來，差別在哪裡？</h2></div><p>沒有一台適合所有人。城市道路、停車環境、乘員與高速比例，會比單看規格更有意義。</p></div>
+  <div class="models">
+   <article class="detail"><h3>Yaris Cross</h3><small>輕巧都會</small><div class="key">小、輕、省、好停。</div><p>1,770 mm 車寬對台灣巷弄、老式地下停車場與機械車位特別友善。</p><ul><li>1–2 人為主</li><li>市區占約 70%</li><li>偶爾載家人</li><li>年里程約 10,000 km 以下</li></ul></article>
+   <article class="detail"><h3>Corolla Cross</h3><small>家庭均衡</small><div class="key">空間與車身尺寸取得平衡。</div><p>1,825 mm 車寬仍容易適應，卻已有一般家庭需要的乘坐空間，並提供汽油與 Hybrid 選擇。</p><ul><li>平日通勤</li><li>假日一家四口</li><li>偶爾父母同行</li><li>年里程約 10,000–20,000 km</li></ul></article>
+   <article class="detail"><h3>RAV4</h3><small>空間長途</small><div class="key">更大的車格與乘載餘裕。</div><p>優勢集中在座艙橫向空間、後座、行李需求與高速長途。相對地，約 1,855 mm 級車寬也更需要注意停車環境。</p><ul><li>4–5 人乘坐</li><li>高速比例高</li><li>家庭旅行</li><li>長輩＋行李同時乘載</li></ul></article>
+  </div>
+ </div>
+</section>
+
+<section id="family" style="background:#f6f6f6">
+ <div class="wrap elder">
+  <div>
+   <div class="eyebrow">Family friendly</div><h2 style="font-size:28px;line-height:1.3">家裡有長輩，別只看行李廂</h2>
+   <p>如果經常載長輩，真正值得現場比較的是後門開口、座椅高度、後座腿部空間，以及上下車時需要跨越的高度。</p>
+  </div>
+  <div class="elder-panel">
+   <h3>從接送到長途旅行</h3>
+   <p><b>Yaris Cross</b>：車高具 SUV 優勢，但後座仍屬小型 SUV 尺度。</p>
+   <p><b>Corolla Cross</b>：一般家庭與長輩接送更均衡。</p>
+   <p><b>RAV4</b>：當需求變成「長途＋長輩＋成人乘客＋行李」，更大的車格可提供較充裕的乘坐空間。</p>
+  </div>
+ </div>
+</section>
+
+<section id="choose">
+ <div class="wrap">
+  <div class="section-head"><div><div class="eyebrow">Find your fit</div><h2>依使用情境縮小選擇</h2></div><p>先從每天真正會遇到的情境出發，再決定要不要為更大的車格或 Hybrid 增加預算。</p></div>
+  <div class="table-wrap"><table class="choice">
+   <thead><tr><th>主要情境</th><th>優先比較</th></tr></thead>
+   <tbody>
+    <tr><td>1–2 人、市區、停車位小</td><td>Yaris Cross</td></tr>
+    <tr><td>市區為主＋偶爾家庭出遊</td><td>Yaris Cross / Corolla Cross</td></tr>
+    <tr><td>一家 3–4 人、唯一一台家庭車</td><td>Corolla Cross</td></tr>
+    <tr><td>每年里程高、塞車多</td><td>Corolla Cross Hybrid</td></tr>
+    <tr><td>經常高速公路</td><td>Corolla Cross / RAV4</td></tr>
+    <tr><td>常坐 4–5 名成人</td><td>RAV4</td></tr>
+    <tr><td>常載長輩＋大量行李</td><td>RAV4</td></tr>
+    <tr><td>車位寬度有限</td><td>Yaris Cross</td></tr>
+    <tr><td>預算約 80 萬</td><td>Yaris Cross 頂規 vs Corolla Cross 入門</td></tr>
+    <tr><td>預算約 85–95 萬</td><td>Corolla Cross Hybrid</td></tr>
+    <tr><td>預算接近 100 萬</td><td>Corolla Cross 高階 vs RAV4 入門</td></tr>
+   </tbody>
+  </table></div>
+ </div>
+</section>
+
+<section class="final">
+ <div class="wrap">
+  <div class="section-head"><div><div class="eyebrow">Summary</div><h2>不是哪台最好，而是哪個尺度最適合你</h2></div><p>三台車各自解決不同的日常問題。試車時，建議把家人、常用行李與實際停車位一起納入考量。</p></div>
+  <div class="final-grid">
+   <div class="final-card"><h3>Yaris Cross</h3><b>城市生活</b><p>車身較窄、停車便利，適合日常通勤與低持有負擔。</p></div>
+   <div class="final-card"><h3>Corolla Cross</h3><b>家庭主力</b><p>兼顧市區尺寸、後座空間與 Hybrid 選擇，是三車中間的平衡點。</p></div>
+   <div class="final-card"><h3>RAV4</h3><b>空間長途</b><p>更適合多人、長途與大量行李，但購車前應確認車位尺寸。</p></div>
+  </div>
+  <p class="source">資料整理基準：2026 年 9 月。售價、規格、等級與促銷可能調整，購車前請以 <a href="https://www.toyota.com.tw/" target="_blank" rel="noopener">Toyota Taiwan 官方網站</a>及經銷商最新資訊為準。本頁為獨立比較資訊頁，非 Toyota 官方網站。</p>
+ </div>
+</section>
+</main>
+<footer><div class="wrap">Toyota SUV Comparison · Independent comparison page</div></footer>
+</body>
+</html>
